@@ -28,7 +28,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-b from-rose-300 via-pink-200 to-purple-300">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden bg-linear-to-b from-rose-300 via-pink-200 to-purple-300">
       
       <ConfettiAutoTrigger delayMs={1500} /> 
 
