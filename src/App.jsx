@@ -4,15 +4,14 @@ import { ConfettiAutoTrigger } from "./components/ConfettiAutoTrigger";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import u1 from './assets/urvi/u1.jpg';
+import u2 from './assets/urvi/u2.jpg';
+import u3 from './assets/urvi/u3.jpg';
+import u4 from './assets/urvi/u4.jpg';
+import u5 from './assets/urvi/u5.jpg';
 
 function App() {
-  const images = [
-    "src/assets/urvi/u1.jpg",
-    "src/assets/urvi/u2.jpg",
-    "src/assets/urvi/u3.jpg",
-    "src/assets/urvi/u4.jpg",
-    "src/assets/urvi/u5.jpg",
-  ];
+  const images = [u1, u2, u3, u4, u5];
 
   const settings = {
     dots: true,
